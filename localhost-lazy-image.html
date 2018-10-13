@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>Lazy Image emigaImageFramework</title>
+
+<style type="text/css">
+.emiga-lazy_image {
+  display: block;
+  background: #fff center center no-repeat;
+  background-size: cover;
+  animation: emiga-lazy 7s;
+}
+/* Loading Animation */
+@keyframes emiga-lazy {
+
+    0%{filter:blur(20px)saturate(0.1)  ; border:30px solid white;   }
+    5%{filter:blur(19px)saturate(0.2)  ; border:28px solid white;   }
+    10%{filter:blur(18px)saturate(0.3) ; border:27px solid white;   }
+    20%{filter:blur(17px)saturate(0.4) ; border:26px solid white;   }
+    25%{filter:blur(16px)saturate(0.5) ; border:25px solid white;   }
+    30%{filter:blur(15px)saturate(0.6) ; border:24px solid white;   }
+    35%{filter:blur(14px)saturate(0.7) ; border:23px solid white;   }
+    40%{filter:blur(13px)saturate(0.8) ; border:22px solid white;   }
+    45%{filter:blur(12px)saturate(0.9) ; border:21px solid white;   }
+    50%{filter:blur(11px)saturate(1)   ; border:20px solid white;   }
+    55%{filter:blur(9px)  ; border:19px solid white; }
+    60%{filter:blur(8px)  ; border:18px solid white; }
+    70%{filter:blur(7px)  ; border:17px solid white; }
+    75%{filter:blur(6px)  ; border:16px solid white; }
+    80%{filter:blur(5px)  ; border:15px solid white; }
+    85%{filter:blur(4px)  ; border:14px solid white; }
+    90%{filter:blur(3px)  ; border:13px solid white; }
+    93%{filter:blur(2px)  ; border:12px solid white; }
+    96%{filter:blur(1px)  ; border:11px solid white; }
+    100%{filter:blur(0px) ; border:10px solid white; }
+
+}
+.emiga-lazy_image > img {
+  display: block;
+  width: 100%;
+  opacity:0;
+}
+
+.emiga-lazy_image.loaded {
+  filter: none;
+  transition: filter 2.5s;
+  animation: none;
+}
+</style>
+</head>
+<body>
+
+<div  class="emiga-lazy_image"
+
+style="background-image: url(image.php?file=images/image.jpg&width=1024&height=512&action=resize&quality=10);" 
+
+emiga-lazy="image.php?file=images/image.jpg&width=2048&height=1024&action=resize&quality=100">
+
+<img src="image.php?file=images/image.jpg&width=1024&height=512&action=resize&quality=10"/>
+
+</div>
+
+<script type="text/javascript">
+window.addEventListener('load', function() {
+    setTimeout(emiga_lazyLoad, 2500);
+});
+function emiga_lazyLoad() {
+  var lazy_images = document.querySelectorAll('.emiga-lazy_image');
+
+  lazy_images.forEach(function(lazy_image) {
+    var image_url = lazy_image.getAttribute('emiga-lazy');
+    var content_image = lazy_image.querySelector('img');
+
+    content_image.src = image_url;
+
+    content_image.addEventListener('load', function() {
+      lazy_image.style.backgroundImage = 'url(' + image_url + ')';
+      lazy_image.className = lazy_image.className + ' loaded';
+    });
+
+  });
+
+}
+</script>
+</body>
+</html>
