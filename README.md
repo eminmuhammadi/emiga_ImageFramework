@@ -18,7 +18,7 @@ git clone https://github.com/eminmuhammadi/emiga_ImageFramework.git
 ```
 
 ## How it works
-1) You need upload images to [images](images/) folder
+1) You need upload images to [images](images/) folder (or use image on local)
  
 2) Test on  [localhost-index.html](localhost-index.html) or [localhost-lazy-image.html](localhost-lazy-image.html)
 
