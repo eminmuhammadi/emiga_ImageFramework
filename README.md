@@ -2,7 +2,7 @@
 
 [![HitCount](http://hits.dwyl.io/eminmuhammadi/emiga_ImageFramework.svg)](http://hits.dwyl.io/eminmuhammadi/emiga_ImageFramework)
 [![GitHub license](https://img.shields.io/github/license/eminmuhammadi/emiga_ImageFramework.svg)](https://github.com/eminmuhammadi/emiga_ImageFramework/blob/master/LICENSE)
-[![Latest Stable Version](https://poser.pugx.org/nette/php-generator/v/stable)](https://github.com/eminmuhammadi/emiga_ImageFramework/releases)
+[![Latest Stable Version](https://poser.pugx.org/eminmuhammadi/emiga_ImageFramework/v/stable)](https://github.com/eminmuhammadi/emiga_ImageFramework/releases)
 
 
 
