@@ -7,5 +7,4 @@ php:
     - hhvm
 
 install: composer install
-
-script: phpunit --coverage-text
+script: ./vendor/bin/phpunit
