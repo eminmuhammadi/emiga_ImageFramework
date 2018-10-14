@@ -1,5 +1,5 @@
 {
-  "name": "emigaImageFramework",
+  "name": "emigaImageFramework"
   "require": {
     "php": "^7.2.9"
   }
