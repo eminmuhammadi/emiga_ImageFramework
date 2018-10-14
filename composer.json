@@ -1,6 +1,7 @@
 {
   "name": "eminmuhammadi/emiga_imageframework",
   "version": "1.0.0.",  
+  "license": "MIT",
   "require": {
     "php": "^7.2.9"
   }
