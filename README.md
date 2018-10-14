@@ -1,5 +1,5 @@
 # emiga_ImageFramework
-[![Packagist](https://img.shields.io/packagist/dt/doctrine/orm.svg)](https://packagist.org/packages/eminmuhammadi/emiga_imageframework)
+[![Total Downloads](https://poser.pugx.org/phpunit/phpunit/downloads)](https://packagist.org/packages/eminmuhammadi/emiga_imageframework)
 [![HitCount](http://hits.dwyl.io/eminmuhammadi/emiga_ImageFramework.svg)](http://hits.dwyl.io/eminmuhammadi/emiga_ImageFramework)
 [![GitHub license](https://img.shields.io/github/license/eminmuhammadi/emiga_ImageFramework.svg)](https://github.com/eminmuhammadi/emiga_ImageFramework/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/eminmuhammadi/emiga_ImageFramework.svg?branch=master)](https://travis-ci.org/eminmuhammadi/emiga_ImageFramework)
