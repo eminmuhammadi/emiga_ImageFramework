@@ -6,13 +6,11 @@
   "keywords": ["imageframework", "emigImageFramework", "emigaLazyLoad"],
   "license": "MIT",
   
-  "authors": [
-        {
+  "authors": {
             "name": "Emin Muhammadi",
             "email": "workspace.emiga@gmail.com",
             "role": "Developer"
-        }
-  ],
+        },
   
   
   "require": {
