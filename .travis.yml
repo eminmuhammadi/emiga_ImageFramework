@@ -1,3 +1,11 @@
 language: php
+
+sudo: false
+
 php:
-  - 7.2.9
+    - 7.2.9
+    - hhvm
+
+install: composer install
+
+script: phpunit --coverage-text
