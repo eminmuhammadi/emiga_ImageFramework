@@ -1,10 +1,10 @@
 # emiga_ImageFramework
 
 [![HitCount](http://hits.dwyl.io/eminmuhammadi/emiga_ImageFramework.svg)](http://hits.dwyl.io/eminmuhammadi/emiga_ImageFramework)
-[![Build Status](https://travis-ci.org/eminmuhammadi/publicdata_emiga.svg?branch=master)](https://travis-ci.org/eminmuhammadi/publicdata_emiga)
-[![Coverage Status](https://coveralls.io/repos/github/eminmuhammadi/emiga_ImageFramework/badge.svg?branch=master)](https://coveralls.io/github/eminmuhammadi/emiga_ImageFramework?branch=master)
-
 [![GitHub license](https://img.shields.io/github/license/eminmuhammadi/emiga_ImageFramework.svg)](https://github.com/eminmuhammadi/emiga_ImageFramework/blob/master/LICENSE)
+[![Latest Stable Version](https://poser.pugx.org/nette/php-generator/v/stable)](https://github.com/eminmuhammadi/emiga_ImageFramework/releases)
+
+
 
 Using ImageFramework by EmiGa you can serve images as php-file which you can set manual width,height,quality,watermark and such another things. Easily setting for any website to load fast (lazyload)
 
