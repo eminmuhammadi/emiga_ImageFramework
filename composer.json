@@ -1,6 +1,17 @@
 {
-  "name": "emigaImageFramework",
+  "name": "eminmuhammadi/emiga_ImageFramework",
+  "version": "1.0.0.",
+  "type": "library",
+  "keywords": ["imageframework", "emigImageFramework", "emigaLazyLoad"],
+  "license": "MIT",
+  
+  "author": {
+            "name": "Emin Muhammadi",
+            "email": "workspace.emiga@gmail.com",
+            "role": "Developer"
+        },
+  
+  
   "require": {
     "php": "^7.2.9"
   }
-}
